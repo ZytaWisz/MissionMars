@@ -10,7 +10,6 @@ public class Main {
         Simulation simulation=new Simulation();
         ArrayList<Item> phase1ItemList = simulation.loadItems("phase-1.txt");
         ArrayList<Item> phase2ItemList = simulation.loadItems("phase-2.txt");
-        System.out.println(phase1ItemList.size()+ " : "+ phase2ItemList.size());
 
         ArrayList<Rocket> rocketListU1Phase1=simulation.loadU1(phase1ItemList);
         ArrayList<Rocket> rocketListU1Phase2=simulation.loadU1(phase2ItemList);
